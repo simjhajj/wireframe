@@ -1,0 +1,225 @@
+/* Style for entire Page */
+*{
+   max-width: 100%;
+}
+
+/* Style for body */
+body{
+    border: 0px;
+    margin: 0 auto;
+}
+
+/* Style for header */
+header{
+    background-color:black;
+    color: white;
+}
+
+/* Style for image logo */
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+}
+
+/* Style for h1 */
+h1{
+    float: right;
+    padding: 10px;
+}
+
+/* Style for h2 */
+h2{
+    color: rgb(0, 0, 77);
+}
+
+/* Style for image used as profile picture */
+.profilepic{
+    border-radius: 50%;
+    height: 250px;
+    background-color: white;
+}
+
+/* Style for div profile */
+.profile{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for personal information list */
+.personalInfo{
+    list-style-type: none;
+    line-height: 22px;
+}
+
+/* Style for personal information list data labels */
+.personalInfo li::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for all divs */
+div{
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Style for section Introduction */
+.introduction  {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+/* Style for 2nd column in Section Introduction */
+.column2{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+/* Style for quote */
+.quote{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+/* Style for div bio */
+.bio{
+    margin-top: 10px;
+}
+
+/* Style for bio paragraph */
+.bio p{
+    margin-left: 13px;
+}
+
+/* Style for div information */
+.information{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Style for section skillbars */
+.skillbars{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Style for div woth class .personality and .technology */
+.personality, .technology{
+    padding-left: 15px;
+}
+
+/* Style for container div used for skill bar */
+.container{
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #f2f1f1;
+}
+
+/* Style for skills div */
+.skills{
+    text-align: right;
+    padding: 5px 5px 0 0;
+    color: white;
+}
+
+/* Styles for all the skill bars */
+.extrovert{
+    width: 80%; 
+    background-color:  rgb(0, 20, 98);
+}
+
+.sensing{
+    width: 50%;
+    background-color: rgb(0, 20, 98);
+}
+
+.thinking{
+    width: 75%;
+    background-color: rgb(0, 20, 98);
+}
+
+.judging{
+    width: 45%;
+    background-color: rgb(0, 20, 98);
+}
+
+.internet{
+    width: 85%;
+    background-color: rgb(0, 20, 98);
+}
+
+.software{
+    width: 87%;
+    background-color: rgb(0, 20, 98);
+}
+
+.mobileApps{
+    width: 75%; 
+    background-color:  rgb(0, 20, 98);
+}
+
+.socialNetwork{
+    width: 80%; 
+    background-color: rgb(0, 20, 98);
+}
+
+/* Style for footer */
+footer{
+    background-color: black;
+    color:white;
+}
+
+/* Style for footer section */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Style for footer divs */
+.f1,.f2,.f3{
+    background-color: black;
+}
+
+/* Style for footer links */
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+/* Style for footer lists */
+.l1,.l2,.l3{
+    list-style: none;
+}
+
+/* Style for footer links when hovered */
+a:hover{
+    text-decoration: underline;
+}
+
+/* Style for footer copyright */
+.copyright{
+    background-color: black;
+    padding: 14px;
+}
+
+/* Style for footer details */
+.footerDetails{
+    padding: 14px;
+}
